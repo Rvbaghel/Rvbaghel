@@ -1,288 +1,184 @@
-<div align="center">
+# 🎨 Animated GitHub Profile Setup Guide
 
-# 👋 Hi there, I'm Vishal Baghel
+## 📋 Quick Start
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A855F7&center=true&vCenter=true&width=940&lines=Computer+Science+Student+%40+Gujarat+University;AI+%26+Machine+Learning+Enthusiast;Full+Stack+Developer;Computer+Vision+Specialist" alt="Typing SVG" />
+### Step 1: Create Special Repository
+Create a repository with the **same name as your GitHub username** (Rvbaghel/Rvbaghel)
 
-</div>
+### Step 2: Copy Files
+1. Copy `README_ANIMATED.md` content to `README.md` in your repository
+2. Copy the `.github/workflows/animations.yml` file to your repository
 
-<div align="center">
-  
-[![GitHub followers](https://img.shields.io/github/followers/Rvbaghel?style=for-the-badge&color=7c3aed)](https://github.com/Rvbaghel)
-[![GitHub stars](https://img.shields.io/github/stars/Rvbaghel?style=for-the-badge&color=a855f7)](https://github.com/Rvbaghel)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-7c3aed?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/vishal-baghel-a055b5249)
-[![Location](https://img.shields.io/badge/📍-Ahmedabad,_India-a855f7?style=for-the-badge)](https://maps.google.com/?q=Ahmedabad)
+### Step 3: Configure Secrets (Optional for Advanced Metrics)
+For advanced metrics generation:
+1. Go to GitHub Settings → Developer Settings → Personal Access Tokens
+2. Generate a new token with `repo` and `user` permissions
+3. Add it as `METRICS_TOKEN` in your repository secrets
 
-</div>
+### Step 4: Customize
+Update the following in your README.md:
+- Replace email links with your actual email
+- Add your Twitter/social media handles
+- Update Buy Me a Coffee link (if you have one)
+- Adjust colors if needed
 
----
+## 🎭 Animation Features
 
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
+### ✨ What's Included:
 
-### 🚀 About Me
+1. **Waving Header & Footer**
+   - Gradient wave animations at top and bottom
+   - Auto-generated with custom colors
 
-```python
-class VishalBaghel:
-    def __init__(self):
-        self.username = "Rvbaghel"
-        self.name = "Vishal Baghel"
-        self.location = "Ahmedabad, Gujarat, India"
-        self.education = "Gujarat University"
-        self.department = "Computer Science"
-        self.interests = [
-            "Artificial Intelligence",
-            "Machine Learning",
-            "Computer Vision",
-            "Full Stack Development",
-            "Data Science"
-        ]
-    
-    def say_hi(self):
-        print("Thanks for dropping by! Let's build something amazing together!")
+2. **Typing Animation**
+   - Multiple rotating text lines
+   - Customizable speed and pauses
 
-me = VishalBaghel()
-me.say_hi()
+3. **Animated Stats Cards**
+   - GitHub statistics with dark theme
+   - Contribution streak tracker
+   - Activity graphs
+   - Language distribution
+
+4. **Snake Animation**
+   - Eats your contribution graph
+   - Multiple color schemes
+   - Auto-updates every 12 hours
+
+5. **Trophy Display**
+   - GitHub achievement trophies
+   - Tokyo Night theme
+
+6. **Profile Summary Cards**
+   - Detailed contribution metrics
+   - Most used languages
+   - Productive time analysis
+   - Repo statistics
+
+7. **Animated GIFs**
+   - Coding animations
+   - Tech stack visuals
+   - Activity indicators
+
+8. **Progress Bars**
+   - Skill proficiency indicators
+   - Color-coded by expertise level
+
+9. **Mermaid Diagrams**
+   - Learning path flowchart
+   - Interactive visualizations
+
+10. **Dynamic Badges**
+    - Tech stack icons
+    - Social media links
+    - Profile view counter
+
+## 🎨 Color Scheme
+
+The theme uses a purple/violet gradient palette:
+- Primary: `#a855f7`
+- Secondary: `#7c3aed`
+- Tertiary: `#6366f1`
+- Background: `#0D1117`
+- Text: `#c9d1d9`
+
+## 🔧 Customization Tips
+
+### Change Colors:
+Replace color codes in the README:
+- `a855f7` → Your primary color
+- `7c3aed` → Your secondary color
+- `0D1117` → Your background color
+
+### Modify Typing Text:
+Edit this line:
+```
+lines=Welcome+to+My+Digital+Universe+🌌;Building+AI+Solutions+That+Matter+🤖
 ```
 
-<br clear="right"/>
+### Add More Stats:
+Use these services:
+- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
+- [Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats)
+- [Profile Trophy](https://github.com/ryo-ma/github-profile-trophy)
+- [Activity Graph](https://github.com/Ashutosh00710/github-readme-activity-graph)
+
+### Skill Icons:
+Visit [Skill Icons](https://skillicons.dev) to generate icon sets
+
+## 🚀 Automatic Updates
+
+The workflow automatically:
+- ✅ Updates snake animation every 12 hours
+- ✅ Can be manually triggered
+- ✅ Updates on every push to main branch
+- ✅ Generates multiple animation variants
+
+## 📊 Stats Providers Used
+
+1. **GitHub Readme Stats** - Basic statistics
+2. **Streak Stats** - Contribution streaks
+3. **Activity Graph** - Contribution timeline
+4. **Trophy** - Achievement badges
+5. **Summary Cards** - Detailed metrics
+6. **Typing SVG** - Animated text
+7. **Capsule Render** - Wave animations
+8. **Skill Icons** - Tech stack icons
+
+## 🎯 Pro Tips
+
+1. **Keep it Fast**: Too many external services can slow loading
+2. **Mobile Friendly**: Test on mobile devices
+3. **Regular Updates**: Keep project descriptions current
+4. **Personal Touch**: Add your unique flair
+5. **Balance**: Mix static and animated content
+
+## 🐛 Troubleshooting
+
+### Snake Animation Not Showing?
+- Ensure GitHub Actions is enabled
+- Check if workflow ran successfully
+- Verify output branch exists
+
+### Stats Not Loading?
+- Check if services are online
+- Verify username is correct
+- Try alternative stat providers
+
+### Colors Look Wrong?
+- Use hex codes without `#`
+- URL encode special characters
+- Test in private/incognito mode
+
+## 📱 Social Media Integration
+
+Add your handles:
+- LinkedIn: `/in/your-profile`
+- Twitter: `@yourusername`
+- Email: `your.email@gmail.com`
+- Portfolio: `yourwebsite.com`
+
+## 🌟 Additional Resources
+
+- [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
+- [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/)
+- [Shields.io](https://shields.io) - Custom badges
+- [Simple Icons](https://simpleicons.org) - Brand icons
+
+## 💡 Inspiration
+
+Your profile is your digital business card. Make it:
+- **Engaging**: Use animations wisely
+- **Informative**: Show your skills clearly
+- **Personal**: Let your personality shine
+- **Professional**: Keep it clean and organized
+
+## 📝 License
+
+Feel free to use and modify this template!
 
 ---
 
-## 🛠️ Tech Stack & Tools
+**Happy Coding! 🚀**
 
-<div align="center">
-
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### AI/ML & Data Science
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
-### Frameworks & Libraries
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-### Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-
-</div>
-
----
-
-## 🌟 Featured Projects
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-### 🐄 Cows Detection Computer Vision
-**YOLOv8 Model for Livestock Monitoring**
-
-- Custom-trained object detection model
-- Real-time animal detection & counting
-- Video stream processing capabilities
-- Healthcare & safety monitoring
-
-[![Repo](https://img.shields.io/badge/Repo-View-7c3aed?style=for-the-badge&logo=github)](https://github.com/Rvbaghel/Cows_Detection_Computer_Vision)
-
-</td>
-<td width="50%">
-
-### 🤕 Fall Detection Computer Vision
-**YOLOv8 for Healthcare Safety**
-
-- Real-time fall detection system
-- Custom-trained model
-- Healthcare & elderly care applications
-- Alert system integration
-
-[![Repo](https://img.shields.io/badge/Repo-View-7c3aed?style=for-the-badge&logo=github)](https://github.com/Rvbaghel/Fall_Detection_Computer_Vision)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🌬️ AQI Frontend Platform
-**Air Quality Intelligence System**
-
-- Real-time AQI analytics
-- Personalized health recommendations
-- Interactive data visualization
-- Python-powered backend
-
-[![Repo](https://img.shields.io/badge/Repo-View-7c3aed?style=for-the-badge&logo=github)](https://github.com/Rvbaghel/aqi-frontend)
-
-</td>
-<td width="50%">
-
-### 📊 SmartDoc Platform
-**Modern Document Processing**
-
-- Full-stack document management
-- Image processing capabilities
-- React + TypeScript + Django
-- Modern UI/UX design
-
-[![Repo](https://img.shields.io/badge/Repo-View-7c3aed?style=for-the-badge&logo=github)](https://github.com/Rvbaghel/SmartDoc)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🏠 Housing Dashboard App
-**Indian Housing Data Analytics**
-
-- Standardized housing datasets
-- ML & data science ready
-- Python library for easy access
-- Visualization tools
-
-[![Repo](https://img.shields.io/badge/Repo-View-7c3aed?style=for-the-badge&logo=github)](https://github.com/Rvbaghel/Housing-Dashboard-App)
-
-</td>
-<td width="50%">
-
-### 🏘️ India Housing Datasets
-**Standardized ML Datasets**
-
-- Lightweight Python library
-- Easy-to-use data access
-- ML model ready format
-- Comprehensive documentation
-
-[![Repo](https://img.shields.io/badge/Repo-View-7c3aed?style=for-the-badge&logo=github)](https://github.com/Rvbaghel/india_housing_datasets)
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 📊 GitHub Statistics
-
-<div align="center">
-  
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Rvbaghel&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=a855f7&icon_color=7c3aed&text_color=c9d1d9" alt="GitHub Stats" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Rvbaghel&theme=radical&hide_border=true&background=0D1117&ring=a855f7&fire=7c3aed&currStreakLabel=a855f7" alt="GitHub Streak" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rvbaghel&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=a855f7&text_color=c9d1d9" alt="Top Languages" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=Rvbaghel&theme=react-dark&hide_border=true&bg_color=0D1117&color=a855f7&line=7c3aed&point=c9d1d9" alt="Activity Graph" />
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  
-[![trophy](https://github-profile-trophy.vercel.app/?username=Rvbaghel&theme=radical&no-frame=true&no-bg=true&row=1&column=7&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
-## 💼 What I'm Currently Working On
-
-<div align="center">
-
-```diff
-+ 🔭 Building AI-powered applications for real-world problems
-+ 🌱 Learning advanced Computer Vision techniques
-+ 👯 Looking to collaborate on ML/AI projects
-+ 💬 Ask me about Python, Machine Learning, and Web Development
-+ 📫 Reach me at: https://mail.google.com/mail/u/2/#inbox
-+ ⚡ Fun fact: I love combining AI with practical applications!
-```
-
-</div>
-
----
-
-## 🎯 Focus Areas
-
-<div align="center">
-
-| Area | Technologies | Status |
-|------|-------------|--------|
-| 🤖 **Machine Learning** | TensorFlow, PyTorch, scikit-learn | 🚀 Active |
-| 👁️ **Computer Vision** | YOLOv8, OpenCV, Image Processing | 🚀 Active |
-| 🌐 **Full Stack Dev** | React, Django, FastAPI, TypeScript | 🚀 Active |
-| 📊 **Data Science** | Pandas, NumPy, Matplotlib, Seaborn | 🚀 Active |
-| ☁️ **Cloud & DevOps** | Docker, AWS, CI/CD | 📚 Learning |
-
-</div>
-
----
-
-## 🤝 Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vishal-baghel-a055b5249)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rvbaghel)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/u/2/#inbox)
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-![Snake animation](https://github.com/Rvbaghel/Rvbaghel/blob/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
----
-
-## 💭 Random Dev Quote
-
-<div align="center">
-
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-</div>
-
----
-
-<div align="center">
-
-### 🌟 Show some ❤️ by starring some repositories!
-
-<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
-
-</div>
-
----
-
-<div align="center">
-  
-**💜 Thanks for visiting! Let's connect and build something amazing together!**
-
-![Visitor Count](https://profile-counter.glitch.me/Rvbaghel/count.svg)
-
-</div>
+Made with 💜 by Vishal Baghel
