@@ -13,17 +13,9 @@
 
 ---
 
-### 📊 GitHub Statistics
-
-<p align="center">
-<img width="480" src="https://github-readme-stats.vercel.app/api?username=Rvbaghel&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
-<br/>
-<img width="480" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rvbaghel&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
-</p>
-
 ---
 
-### 🐍 Contribution Snake
+
 <img src="https://raw.githubusercontent.com/Rvbaghel/Rvbaghel/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%"/>
 
 ---
