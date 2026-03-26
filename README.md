@@ -20,9 +20,4 @@
 
 ---
 
-### 🛠️ Core Tech Stack
-<p>
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,django,fastapi,react,mongodb,docker,git" alt="Skills"/>
-</p>
 
-</div>
